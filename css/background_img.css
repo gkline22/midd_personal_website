@@ -1,0 +1,54 @@
+html,
+body,
+.landing-background-pic {
+    height: 100%;
+}
+
+.landing-background-pic {
+    background: url("background/idaho_mtn.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+html,
+body,
+.about-me-background-pic {
+    height: 100%;
+}
+
+.about-me-background-pic {
+    background: url("background/golden_gate.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.intro-content {
+    position: absolute;
+    padding: 20% 0 5% 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.right-edge {
+    float: right;
+}
+
+html,
+body,
+.projects-background-pic {
+    height: 100%;
+}
+
+.projects-background-pic {
+    background: url("background/idaho_lake.JPG")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
