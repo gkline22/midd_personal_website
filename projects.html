@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Gray Kline | Projects</title>
+    <title>Projects | Gray Kline</title>
     <meta charset="utf-8">
     <!-- Viewport Meta Tag -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,14 +10,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
           integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
           crossorigin="anonymous">
-    <link rel="stylesheet" href="css/background_img.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
+<body class="font-styles">
 
     <!--Nav Bar-->
-    <div class="container-fluid">
-        <nav id="navbar" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" role="navigation">
+    <nav id="navbar" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" role="navigation">
+        <div class="container-fluid">
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content"
                     aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,19 +30,78 @@
 
             <a class="navbar-brand" href="index.html">Gray Kline</a>
 
-            <div id="nav-content" class="collapse navbar-collapse pull-right">
-                <ul class="navbar-nav mr-auto">
+            <div id="nav-content" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="page-scroll nav-link" href="aboutme.html">About Me</a> </li>
                     <li class="nav-item active"><a class="page-scroll nav-link" href="projects.html">Projects</a> </li>
                 </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
+
+    <!--Projects-->
+    <div class="projects-background-pic">
+        <div class="intro-content">
+            <h1 class="h1-responsive text-center text-white animated fadeInDown">My Projects</h1>
+        </div>
     </div>
 
-    <!--Projed\cts-->
-    <div class="projects-background-pic">
-        <div id="projects">
-            Projects
+    <div id="projects" class="body-padding bg-color">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 scrollable scrollable-size">
+                    <h3>Personal Website</h3>
+                    <div class="lower-section-pad">
+                        After gaining valuable experience in frontend web development from interning with FactSet this past summer, I
+                        decided to put my skills to the test in making my first personal website. The website makes heavy use of Bootstrap
+                        for formatting and styling, as well as for making it responsive.
+                    </div>
+
+                    <h3 class="upper-section-pad">Alert Builder</h3>
+                    <div class="lower-section-pad">
+                        During my 12-week Software Engineering Internship with FactSet, I went from knowing nothing about web development to
+                        building my own frontend web application. I started the internship by learning the basics of web development, such
+                        as JavaScript (ES6), HTML5, and CSS. I then learned the fundamentals of AngularJS, Git, as well as other
+                        FactSet-specific tools and libraries. I used what I had learned to start and see to completion a web application
+                        called Alert Builder. Alert Builder is an internal tool for Product Developers to easily and efficiently design
+                        custom alert cards to be used in the new alerting infrastructure in the web version of FactSet's Workstation
+                        software.
+                    </div>
+
+                    <h3 class="upper-section-pad">Data Structures Trivia Game</h3>
+                    <div class="lower-section-pad">
+                        For the final project of my Data Structures course, I co-developed a quiz game with Data Structures trivia questions
+                        in the form of a Java Applet. The player goes through a set of randomized multiple choice questions, and has 60 seconds to answer
+                        them. The game keeps track of how many the player gets right and wrong, and tells the player after each question
+                        whether or not they answered it correctly. This project allowed me to put my knowledge of Data Structures and
+                        Object-Oriented programming to use, and also helped in studying for the final exam!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-dark text-white">
+        <div class="text-center upper-section-pad lower-footer-pad">
+            <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/gray-kline" target="_blank">
+                <span class="fa fa-linkedin"></span>
+            </a>
+
+            <a class="btn btn-social-icon btn-github" href="https://github.com/gkline22" target="_blank">
+                <span class="fa fa-github"></span>
+            </a>
+
+            <a class="btn btn-social-icon mail-button" href="mailto:gkline@middlebury.edu">
+                <span class="fa fa-envelope"></span>
+            </a>
+        </div>
+
+        <div class="text-center lower-footer-pad footer-font">
+            Photo by Gray Kline | Middlebury River - Ripton, VT
+        </div>
+
+        <div class="text-center lower-footer-pad footer-font">
+            <p><i class="fa fa-copyright"></i> Gray Kline 2017</p>
         </div>
     </div>
 

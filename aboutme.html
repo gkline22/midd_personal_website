@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Gray Kline | About Me</title>
+    <title>About Me | Gray Kline</title>
     <meta charset="utf-8">
     <!-- Viewport Meta Tag -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,14 +10,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
           integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
           crossorigin="anonymous">
-    <link rel="stylesheet" href="css/background_img.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
+<body class="font-styles">
 
     <!--Nav Bar-->
-    <div class="container-fluid">
-        <nav id="navbar" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" role="navigation">
+    <nav id="navbar" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top navbar-buffer" role="navigation">
+        <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content"
                     aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,20 +29,101 @@
 
             <a class="navbar-brand" href="index.html">Gray Kline</a>
 
-            <div id="nav-content" class="collapse navbar-collapse pull-right">
-                <ul class="navbar-nav mr-auto">
+            <div id="nav-content" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item active"><a class="page-scroll nav-link" href="aboutme.html">About Me</a> </li>
                     <li class="nav-item"><a class="page-scroll nav-link" href="projects.html">Projects</a> </li>
                 </ul>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
 
     <!--About Me-->
     <div class="about-me-background-pic">
-        <div id="about-me">
-            About Me
-            This is a test!
+        <div class="intro-content">
+            <h1 class="h1-responsive text-center text-white animated fadeInDown">About Me</h1>
+            <!--<a class="fa fa-angle-down page-scroll" href="#about-me"></a>-->
+        </div>
+    </div>
+
+    <div id="about-me" class="body-padding bg-color">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-5">
+                    <h2 class="text-center">Picture Coming Soon</h2>
+                </div>
+
+                <div class="col-md-7 scrollable scrollable-size">
+
+                    <div>
+                        My name is Gray, and I'm currently in my third year at
+                        <a class="black-links" href="http://www.middlebury.edu" target="_blank">Middlebury College</a>
+                        in Middlebury, Vermont, where I'm
+                        pursuing a degree in Computer Science. I'm an aspiring software engineer with experience using the following
+                        technologies and languages:
+                    </div>
+
+                    <ul class="upper-section-pad">
+                        <li>Languages: Python, JavaScript (ES6), HTML5, CSS, C, Java</li>
+                        <li>Frameworks: AngularJS, Bootstrap</li>
+                        <li>Systems: Windows, Linux/Unix, MacOS</li>
+                        <li>Other Technologies: Git, Gulp, WebStorm IDE</li>
+                    </ul>
+
+                    <div>
+                        As a Software Engineering Intern with
+                        <a class="black-links" href="https://www.factset.com/" target="_blank">FactSet Research Systems</a>
+                        this past summer, I had the privilege of being able to take charge of my own
+                        <a class="black-links" href="projects.html">project</a>
+                        where I built a frontend AngularJS web application from the ground up. While this introduced me to the
+                        world of web development, I'm also passionate about learning new technologies, and hope to add more to my repertoire
+                        as I progress through college and beyond. In fact, I've recently started learning Swift and iOS App Development!
+                    </div>
+                    <div class="upper-section-pad">
+                        When I'm not in the classroom or working on my latest project, I enjoy spending time outside. I've been an avid
+                        skier since I was young, and love heading up to either Stowe or Sugarbush to hit the slopes in the winter.
+                    </div>
+                    <div class="upper-section-pad lower-section-pad">
+                        I'm also a nationally certified Emergency Medical Technician, and volunteer both at home and at school. Back home,
+                        I'm an adult adviser for a volunteer ambulance organization called
+                        <a class="black-links" href="http://www.post53.info/" target="_blank">Darien EMS - Post 53</a>
+                        . What makes Post 53 so
+                        unique is that it has been run primarily by high school students throughout its almost 50 year history. While
+                        an adult adviser is present on almost every call that Post 53 responds to, the young adults, or "Posties", comprise
+                        the majority of the ambulance crew and run the day-to-day operations of the organization. Volunteering has always
+                        been a big part of who I am, and being a volunteer EMT is one of the best ways to give back to the community, as
+                        I'm there to help people when they need it most.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-dark text-white">
+        <div class="text-center upper-section-pad lower-footer-pad">
+            <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/gray-kline" target="_blank">
+                <span class="fa fa-linkedin"></span>
+            </a>
+
+            <a class="btn btn-social-icon btn-github" href="https://github.com/gkline22" target="_blank">
+                <span class="fa fa-github"></span>
+            </a>
+
+            <a class="btn btn-social-icon mail-button" href="mailto:gkline@middlebury.edu">
+                <span class="fa fa-envelope"></span>
+            </a>
+        </div>
+
+        <div class="text-center lower-footer-pad footer-font">
+            Photo by
+            <a class="text-white" href="https://www.flickr.com/photos/romainguy/" target="_blank">Romain Guy</a>
+            |
+            <a class="text-white" href="https://www.flickr.com/photos/romainguy/3409068082/" target="_blank">Golden Gate Afternoon</a>
+            - San Francisco, CA
+        </div>
+
+        <div class="text-center lower-footer-pad footer-font">
+            <p><i class="fa fa-copyright"></i> Gray Kline 2017</p>
         </div>
     </div>
 

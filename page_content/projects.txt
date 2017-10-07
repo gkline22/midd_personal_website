@@ -1,0 +1,25 @@
+Layout and text for projects.html
+
+Project text should probably take up the majority of the screen. Bold and larger titles for each project, followed by
+a brief informational paragraph to follow.
+
+Personal Website:
+    After gaining valuable experience in frontend web development from interning with FactSet this past summer, I
+    decided to put my skills to the test in making my first personal website. The website makes heavy use of Bootstrap
+    for formatting and styling, as well as for making it responsive.
+
+Alert Builder:
+    During my 12-week Software Engineering Internship with FactSet, I went from knowing nothing about web development to
+    building my own frontend web application. I started the internship by learning the basics of web development, such
+    as JavaScript (ES6), HTML5, and CSS. I then learned the fundamentals of AngularJS, Git, as well as other
+    FactSet-specific tools and libraries. I used what I had learned to start and see to completion a web application
+    called Alert Builder. Alert Builder is an internal tool for Product Developers to easily and efficiently design
+    custom alert cards to be used in the new alerting infrastructure in the web version of FactSet's Workstation
+    software.
+
+Data Structures Trivia Game:
+    For the final project of my Data Structures course, I co-developed a quiz game with Data Structures trivia questions
+    in the form of a Java Applet. The player goes through a set of randomized multiple choice questions, and has 60 seconds to answer
+    them. The game keeps track of how many the player gets right and wrong, and tells the player after each question
+    whether or not they answered in correctly. This project allowed me to put my knowledge of Data Structures and
+    Object-Oriented programming to use, and also helped in studying for the final exam!

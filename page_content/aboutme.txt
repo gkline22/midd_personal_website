@@ -1,0 +1,36 @@
+Layout and text for aboutme.html
+
+On left center of screen, I need to find a good portrait shot of myself.
+
+On right side of screen, my bio information.
+
+Bio:
+    My name is Gray, and I'm currently in my third year at (LINK)Middlebury College in Middlebury, Vermont, where I'm
+    pursuing a degree in Computer Science. I'm an aspiring software engineer with experience using the following
+    technologies and languages:
+
+    Languages: Python, JavaScript (ES6), HTML5, CSS, C, Java
+    Frameworks: AngularJS, Bootstrap
+    Systems: Windows, Linux/Unix, MacOS
+    Other Technologies: Git, Gulp, WebStorm IDE
+
+    As a Software Engineering Intern with FactSet Research Systems this past summer, I had the privilege of being able to take charge of
+    my own (LINK)project where I built a frontend AngularJS web application from the ground up. While this introduced me to the (ADJECTIVE)
+    world of web development, I'm also passionate about learning new technologies, and hope to add more to my repertoire
+    as I progress through college and beyond. In fact, I've recently started learning Swift and iOS App Development!
+
+    At Middlebury, I've taken courses focusing on several key facets of Computer Science, such as Data
+    Structures, Algorithms and Complexity, and Object-Oriented programming. Ever since taking a Computer Architecture
+    course last year I've developed an interest in the systems side of computer science, and I'm currently taking a
+    course in Systems Programming to learn more about this fascinating field.
+
+    When I'm not in the classroom or working on my latest project, I enjoy spending time outside. I've been an avid
+    skier since I was young, and love heading up to either Stowe or Sugarbush to hit the slopes in the winter.
+
+    I'm also a nationally certified Emergency Medical Technician, and volunteer both at home and at school. Back home,
+    I'm an adult adviser for a volunteer ambulance organization called (LINK)Darien EMS - Post 53. What makes Post 53 so
+    unique is that it has been run primarily by high school students throughout its almost 50 year history. While
+    an adult adviser is present on almost every call that Post 53 responds to, the young adults, or "Posties", comprise
+    the majority of the ambulance crew and run the day-to-day operations of the organization. Volunteering has always
+    been a big part of who I am, and being a volunteer EMT is one of the best ways to give back to the community, as
+    I'm there to help people when they need it most.
