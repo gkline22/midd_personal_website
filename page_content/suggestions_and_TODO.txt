@@ -1,0 +1,22 @@
+The following is a list of suggestions to implement into the site:
+
+From Alex:
+
+-   Consider making it so you can see SOME txt content when you land on the page. Right now, if you show up on the
+    homepage or the about me page, you don’t see anything without scrolling and it’s not necessarily intuitive that you
+    have to scroll. Not sure how to format this, but you want to be able to see SOMETHING content-wise as soon as you
+    land on the page.
+
+-   In your “About Me” page, you have a few links in the text, but they just appear as plain black text until you hover
+    over. Consider making hyperlinked text appear slightly different so people know there’s clickable content there.
+
+-   The text on your homepage is a tad hard to read against that background. Maybe switch the pics from your landing page
+    and your projects page? Just because there’s more text on the former.
+
+-   Consider adding a period after “I’m Gray”
+
+-   Make sure the alignment formatting is consistent. Might be a little funky that your about me paragraphs are aligned
+    to center and your projects paragraphs are aligned hard left.
+
+-   In mobile width, make some more clickable options other than the dropdown. Like make it obvious where you can click
+    to go to other pages.

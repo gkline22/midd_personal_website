@@ -35,6 +35,14 @@ body,
     z-index: 0;
 }
 
+.scroll-arrow {
+    position: absolute;
+    padding: 25% 0 5% 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
 .right-edge {
     float: right;
 }
