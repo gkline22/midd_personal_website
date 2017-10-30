@@ -1,0 +1,10 @@
+This is a place to keep useful links that I consulted in making my website.
+
+Bootstrap 4 Tutorial:
+https://www.quackit.com/bootstrap/bootstrap_4/tutorial/
+
+Full Page Background Image:
+https://mdbootstrap.com/full-page-background-image/
+
+Smooth Scroll:
+https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_animate_smoothscroll
